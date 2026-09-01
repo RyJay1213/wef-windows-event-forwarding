@@ -69,7 +69,7 @@ Validated real-time log transmission by inspecting the central **Forwarded Event
 
 ## Implementation Summary
 
-1. Configured WinRM service settings and Subscription Manager URLs via Group Policy (`http://<Collector-FQDN>:5985/wsman/SubscriptionManager/WEC`).
+1. Configured WinRM service settings and Subscription Manager via Group Policy
 2. Established event subscription targeting specific active directory security event IDs.
 3. Verified active WinRM communication channels from `VMWorkstation1.lab.internal`.
 4. Confirmed remote log delivery into the central `Forwarded Events` event log for SIEM/SOC.
